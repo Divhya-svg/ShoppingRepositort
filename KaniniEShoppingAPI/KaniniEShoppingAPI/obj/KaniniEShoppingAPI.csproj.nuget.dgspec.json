@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\KaniniEShoppingAPI\\KaniniEShoppingAPI\\KaniniEShoppingAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\BusinessLayer\\Kanini.ECommerce.EShopiee.BL\\Kanini.ECommerce.EShopiee.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\BusinessLayer\\Kanini.ECommerce.EShopiee.BL\\Kanini.ECommerce.EShopiee.BL.csproj",
+        "projectName": "Kanini.ECommerce.EShopiee.BL",
+        "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\BusinessLayer\\Kanini.ECommerce.EShopiee.BL\\Kanini.ECommerce.EShopiee.BL.csproj",
+        "packagesPath": "C:\\Users\\Divhya.bharathy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\BusinessLayer\\Kanini.ECommerce.EShopiee.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Divhya.bharathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\DataAccesLayer\\Kanini.ECommerce.EShopiee.DAL.csproj": {
+                "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\DataAccesLayer\\Kanini.ECommerce.EShopiee.DAL.csproj"
+              },
+              "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj": {
+                "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj"
+              },
+              "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Services\\Kanini.ECommerce.EShopiee.Services.csproj": {
+                "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Services\\Kanini.ECommerce.EShopiee.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\DataAccesLayer\\Kanini.ECommerce.EShopiee.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\DataAccesLayer\\Kanini.ECommerce.EShopiee.DAL.csproj",
+        "projectName": "Kanini.ECommerce.EShopiee.DAL",
+        "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\DataAccesLayer\\Kanini.ECommerce.EShopiee.DAL.csproj",
+        "packagesPath": "C:\\Users\\Divhya.bharathy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\DataAccesLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Divhya.bharathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj": {
+                "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\KaniniEShoppingAPI\\KaniniEShoppingAPI\\KaniniEShoppingAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\KaniniEShoppingAPI\\KaniniEShoppingAPI\\KaniniEShoppingAPI.csproj",
+        "projectName": "KaniniEShoppingAPI",
+        "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\KaniniEShoppingAPI\\KaniniEShoppingAPI\\KaniniEShoppingAPI.csproj",
+        "packagesPath": "C:\\Users\\Divhya.bharathy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\KaniniEShoppingAPI\\KaniniEShoppingAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Divhya.bharathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\BusinessLayer\\Kanini.ECommerce.EShopiee.BL\\Kanini.ECommerce.EShopiee.BL.csproj": {
+                "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\BusinessLayer\\Kanini.ECommerce.EShopiee.BL\\Kanini.ECommerce.EShopiee.BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj",
+        "projectName": "Kanini.ECommerce.EShopiee.Model",
+        "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj",
+        "packagesPath": "C:\\Users\\Divhya.bharathy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Divhya.bharathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Services\\Kanini.ECommerce.EShopiee.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Services\\Kanini.ECommerce.EShopiee.Services.csproj",
+        "projectName": "Kanini.ECommerce.EShopiee.Services",
+        "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Services\\Kanini.ECommerce.EShopiee.Services.csproj",
+        "packagesPath": "C:\\Users\\Divhya.bharathy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Divhya.bharathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj": {
+                "projectPath": "C:\\Users\\Divhya.bharathy\\source\\repos\\Kanini.ECommerce.EShopieeLatest\\Model\\Kanini.ECommerce.EShopiee.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

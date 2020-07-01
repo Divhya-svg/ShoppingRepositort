@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaniniEShoppingAPI", "KaniniEShoppingAPI\KaniniEShoppingAPI.csproj", "{02632437-3B26-46CB-89F7-697C3C1CC900}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A458D572-7F04-4349-92F7-50D66AB9DF11} = {A458D572-7F04-4349-92F7-50D66AB9DF11}
+		{833E0AA7-F319-4F6E-85F7-8E5C288F17C3} = {833E0AA7-F319-4F6E-85F7-8E5C288F17C3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{C4301134-8CF6-4695-9879-9FF1AB949CA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanini.ECommerce.EShopiee.BL", "..\BusinessLayer\Kanini.ECommerce.EShopiee.BL\Kanini.ECommerce.EShopiee.BL.csproj", "{03333C37-5271-455F-8BEC-47D4A01CCFD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{D79F2C07-5F0F-4499-B1DC-04037A6BC17B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanini.ECommerce.EShopiee.DAL", "..\DataAccesLayer\Kanini.ECommerce.EShopiee.DAL.csproj", "{833E0AA7-F319-4F6E-85F7-8E5C288F17C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{2FE7048F-1A86-434D-A194-83E3D1BF103D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanini.ECommerce.EShopiee.Model", "..\Model\Kanini.ECommerce.EShopiee.Model.csproj", "{CC9EBE35-44C6-4B99-9D4A-8338D202EAA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{7409AB52-CE8B-4E3E-B11F-E16C4720CB51}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Kanini.ECommerce.EShopiee.Entity", "..\Database\Kanini.ECommerce.EShopiee.Entity.sqlproj", "{A458D572-7F04-4349-92F7-50D66AB9DF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A57F1F5E-C3A2-4312-913F-EA2E3D4C19E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanini.ECommerce.EShopiee.Services", "..\Services\Kanini.ECommerce.EShopiee.Services.csproj", "{2F750E38-E60A-4D32-844D-B228E7CF1343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{80112A1A-F9A0-4A66-8D9D-F570F79A8E4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02632437-3B26-46CB-89F7-697C3C1CC900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02632437-3B26-46CB-89F7-697C3C1CC900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02632437-3B26-46CB-89F7-697C3C1CC900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02632437-3B26-46CB-89F7-697C3C1CC900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03333C37-5271-455F-8BEC-47D4A01CCFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03333C37-5271-455F-8BEC-47D4A01CCFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03333C37-5271-455F-8BEC-47D4A01CCFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03333C37-5271-455F-8BEC-47D4A01CCFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833E0AA7-F319-4F6E-85F7-8E5C288F17C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833E0AA7-F319-4F6E-85F7-8E5C288F17C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833E0AA7-F319-4F6E-85F7-8E5C288F17C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833E0AA7-F319-4F6E-85F7-8E5C288F17C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9EBE35-44C6-4B99-9D4A-8338D202EAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9EBE35-44C6-4B99-9D4A-8338D202EAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9EBE35-44C6-4B99-9D4A-8338D202EAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9EBE35-44C6-4B99-9D4A-8338D202EAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A458D572-7F04-4349-92F7-50D66AB9DF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A458D572-7F04-4349-92F7-50D66AB9DF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A458D572-7F04-4349-92F7-50D66AB9DF11}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A458D572-7F04-4349-92F7-50D66AB9DF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A458D572-7F04-4349-92F7-50D66AB9DF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A458D572-7F04-4349-92F7-50D66AB9DF11}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2F750E38-E60A-4D32-844D-B228E7CF1343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F750E38-E60A-4D32-844D-B228E7CF1343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F750E38-E60A-4D32-844D-B228E7CF1343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F750E38-E60A-4D32-844D-B228E7CF1343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03333C37-5271-455F-8BEC-47D4A01CCFD6} = {C4301134-8CF6-4695-9879-9FF1AB949CA8}
+		{833E0AA7-F319-4F6E-85F7-8E5C288F17C3} = {D79F2C07-5F0F-4499-B1DC-04037A6BC17B}
+		{CC9EBE35-44C6-4B99-9D4A-8338D202EAA1} = {2FE7048F-1A86-434D-A194-83E3D1BF103D}
+		{A458D572-7F04-4349-92F7-50D66AB9DF11} = {7409AB52-CE8B-4E3E-B11F-E16C4720CB51}
+		{2F750E38-E60A-4D32-844D-B228E7CF1343} = {A57F1F5E-C3A2-4312-913F-EA2E3D4C19E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF993FA0-200E-4FA4-B96D-DFD873887F34}
+	EndGlobalSection
+EndGlobal
